@@ -1,20 +1,14 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This repository provides test notebooks on training and testing a custom entity recognition model for detecting sustainability and resilience technologies within documents.
+The model is built using SpaCy nlp platform and their NER model.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Getting started
+The notebook repo contains two notebooks:
+1.	[ner-train-note](./ner-train-note.ipynb): test code to setup doc objects, define custom entity, and parse training data for the NER model.
+2.	[ner-model-note](./ner-model-note.ipynb): test code to setup the NLP pipeline, NER model and apply training for our custom entity we defined.
+3.  recommended to open notebooks using jupyter.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+# Development code
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Visit this [repo](https://dev.azure.com/csun0853/nlp-ner-sustainability/_git/nlp-ner-sustain) to view development code:
